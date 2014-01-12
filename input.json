@@ -1,0 +1,14 @@
+
+    {
+	SiteConfiguration: [
+		'http://www.urbanspoon.com/s/1?n=26&q=seattle',
+        'http://www.urbanspoon.com/s/1?n=49626&q=seattle',
+		'http://www.urbanspoon.com/s/1?n=1&q=seattle'
+		],
+        DataToScrape: {
+			elementscontainer: '.row-fluid.restaurant',
+			name: '.resto_name',
+			price: '.price',
+			rating: '.rating-percent'
+			}
+      }
